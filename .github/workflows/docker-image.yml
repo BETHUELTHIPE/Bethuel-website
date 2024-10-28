@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: [self-hosted, githubrunner-1]
+    runs-on: [self-hosted, runner-02]
 
     services:
       db:

@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on:  runner-02
+    runs-on: runner-02
 
     services:
       db:
@@ -81,4 +81,3 @@ jobs:
       # Step to push the Docker image to Docker Hub
       - name: Push Docker image to Docker Hub
         run: docker push bethuelm/portfolio-app:latest
-
